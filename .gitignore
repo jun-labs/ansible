@@ -1,2 +1,20 @@
-.idea
+## Ansible
+group_vars/*
+host_vars/*
+inventory/*
+*.retry
+*.log
+.cache/
+
+## SSH keys
+*.pem
+*.key
+
+## OS generated files
 .DS_Store
+
+## IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
